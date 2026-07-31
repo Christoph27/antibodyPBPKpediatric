@@ -1,0 +1,25 @@
+ID;Name;"Doses
+(according to Kumar2026)";"Age
+(according to Kumar2026)";Comment age;Adult and pediatric data source (Table S1);Further Data S1;Target;Route;"PK-behaviour 
+(according to Kumar2026)";Comment;digitalized
+1;Atezolizumab;15mg/kg;2y-16y;;Huang2022;Shemesh2019, Geoerger2020;PD-L1;IV;high dose linear;Huang2022 reports PBPK model showing individual data used in Fig. 3. Data for age groups from Geoerger2020.  Huang2022 is citing  Shemesh2019  (popPK pediatric) & Herbst2014 (adults), Stroh2017 (popPK). ToDo??? Scanning individual data???;OK
+2;Avelumab;10, 20mg/kg;3y, 8-15y;;Vugmeyster2022, Heery2017;;PD-L1;IV;high dose linear;individual profiles;OK
+3;Basiliximab;10 mg;5-6y;;Nagai2010, Haba2001;;IL-2R;IV;NL;;
+4;Belimumab;10mg/kg;13-14y;;Dimelow2021, Zhou2021;Brunner2020;BLyS;IV;linear;;
+5;Bevacizumab;5, 15 mg/kg;13y;median 13 yrs, range: 1-21 years;GladeBender2008, Wang2019;;VEGF;IV;linear;;OK
+6;Canakinumab;0.5, 1, 1.5, 3, 4.5, 9mg/kg;9.5y;;Sun2016,Chakraborty2012;;IL-1b;SC;linear;;
+7;Dupilumab;3, 6mg/kg;1.3y, 3-5y;;Paller2021, Li2020;;IL-4Ra;SC;NL;;
+8;Eculizumab;600mg;2-5y;;Jodele2014, PeffaultdeLatour2020, Chow2020;;C5;IV;NL;;OK
+9;Emicizumab;3mg/kg + 1.5/3/6mg/kg;7.5y;;Yoneyama2022, Kiialainen2024;;IXa & X (bisp.);SC;NL;only trough concentrations reported;
+10;Evinacumab;15mg/kg;8.8y;;Wiegman2024, Khaksar2021;;ANGPTL3;IV;NL;;
+11;Infliximab;1, 5, 10mg/kg;14-15y, 0-6y;;Baldassano2003, Chang2022, Burns2008;Ruperto2007;TNFa;IV;NL;;
+12;Mepolizumab;40mg, 100mg;6-11y;;Gupta2019, Smith2011;;IL-5;SC;linear;;
+13;Naxitamab;3 mg/kg;5y, 8y, 10y, 17y;;FDA BLA 761171;;GD2;IV;linear;what is reported are prediction-corrected observed data from popPK study (Figure19-2. & Table 19-4.)! -> Age differences are probably lost!;
+14;Nirsevimab;10, 25, 50, 100, 300mg;0.1-0.6y;;Domachowske2018, Griffin2020 & 2017, Hammitt2022;;RSV;IM;linear;;
+15;Pagibaximab;3, 10, 30, 60, 90mg/kg;3 to 7 days;;Weisman2009 a) & b) ;;LTA/Staphyloc;IV;linear;Assay meassures also endogenous LTA antibody;OK
+16;Palivizumab;3, 10, 15mg/kg;0.6y;;Subramanian1998,  Boeckh2001;;RSV;IV;linear;;OK
+17;Rituximab;375mg/m2;8y;;Chen2021, Yonezawa2019, Haridas2020, Jiang2020, Kamei2009;;CD20;IV;high dose linear;;
+18;SB 209763;0.25, 1.25, 5, 10mg/kg;0.02-2.75y;;Everitt1996, Meissner1999;;RSV;IM (ped.) / IV (adult);linear;;OK
+19;Tocilizumab;8, 10mg/kg;6-8y, 13y;;Zhang2017 & 2021;;IL-6R;IV;NL;;
+20;Urtoxazumab;0.1, 0.3, 1, 3mg/kg;0.4-5y;"inclusion criteria: 1-15 yrs; 2.8&2.9+/-2.4 ";Lopez2010;;Shiga-like toxin;IV;linear;;OK
+21;Ustekinumab;3, 9mg/kg;10-14y;;Rosh2021;;IL12/IL13;IV;linear;;
