@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Module id="MC6R00NpKkK0d_yjtMsLvg" name="AddedOntogenyMalik2020_OverwriteModule" icon="Module" moduleImportVersion="-570810139" mergeBehavior="Overwrite" isPKSimModule="0" version="17">
+  <BuildingBlocks>
+    <PassiveTransportBuildingBlock id="aLlhcjQmK0SYXrzomz9FRw" name="Passive Transports" icon="PassiveTransport" bbVersion="4">
+      <Creation createdAt="5250925476552120649" createdBy="8aab7eaf" creationMode="New" origin="MoBi" version="12.0" internalVersion="17" />
+      <Builders>
+        <TransportBuilder id="FRAXSZOJEkarRvAPqaIIpQ" name="TwoPoresTransportLink" description="Two pores transport link" mode="Logical" containerType="Other" dimension="Amount per time" createProcessRateParameter="0" processRateParameterPersistable="0" formula="b5495af2-c8b3-4f05-9d46-b18492d45b03" transportType="0">
+          <SourceCriteria operator="And">
+            <DescriptorConditions>
+              <NotMatchTagCondition tag="ArterialBlood" />
+              <NotMatchTagCondition tag="EndogenousIgG" />
+              <MatchTagCondition tag="Plasma" />
+              <NotMatchTagCondition tag="PortalVein" />
+              <NotMatchTagCondition tag="VenousBlood" />
+            </DescriptorConditions>
+          </SourceCriteria>
+          <TargetCriteria operator="And">
+            <DescriptorConditions>
+              <MatchTagCondition tag="Interstitial" />
+            </DescriptorConditions>
+          </TargetCriteria>
+          <MoleculeList forAll="1">
+            <MoleculeNamesToExclude>
+              <MoleculeNamesToExcludeChild>FcRn</MoleculeNamesToExcludeChild>
+              <MoleculeNamesToExcludeChild>LigandEndo</MoleculeNamesToExcludeChild>
+              <MoleculeNamesToExcludeChild>LigandEndo_Complex</MoleculeNamesToExcludeChild>
+              <MoleculeNamesToExcludeChild>Pagibaximab-FcRn_Complex</MoleculeNamesToExcludeChild>
+            </MoleculeNamesToExclude>
+          </MoleculeList>
+        </TransportBuilder>
+      </Builders>
+      <FormulaCache>
+        <Formulas>
+          <Formula id="b5495af2-c8b3-4f05-9d46-b18492d45b03" name="TwoPoresTransportLink" dim="Amount per time" formula="fu * ((J_iso+alpha_l*Q_lymph)*(1-sigma_l)*F2*C_pl+(P_endothelial_l*SA_pls_int)*(C_pl-C_int/K_int_pls)*Pe_l/(exp(Pe_l)-1) + (-J_iso+(1-alpha_l)*Q_lymph)*(1-sigma_s)*F2*C_pl+(P_endothelial_s*SA_pls_int)*(C_pl-C_int/K_int_pls)*Pe_s/(exp(Pe_s)-1))">
+            <Paths>
+              <Path path="0" as="1" />
+              <Path path="2" as="3" dim="4" />
+              <Path path="5" as="6" dim="4" />
+              <Path path="7" as="8" dim="9" />
+              <Path path="10" as="11" dim="9" />
+              <Path path="12" as="13" dim="14" />
+              <Path path="15" as="16" dim="17" />
+              <Path path="18" as="19" dim="17" />
+              <Path path="20" as="21" />
+              <Path path="22" as="23" />
+              <Path path="24" as="25" />
+              <Path path="26" as="27" />
+              <Path path="28" as="29" />
+              <Path path="30" as="31" dim="32" />
+              <Path path="33" as="34" />
+            </Paths>
+          </Formula>
+        </Formulas>
+        <StringMap>
+          <Map s="SOURCE|..|Flow fraction via large pores" id="0" />
+          <Map s="alpha_l" id="1" />
+          <Map s="SOURCE|..|Fluid recirculation flow rate" id="2" />
+          <Map s="J_iso" id="3" />
+          <Map s="Flow" id="4" />
+          <Map s="SOURCE|..|Lymph flow rate" id="5" />
+          <Map s="Q_lymph" id="6" />
+          <Map s="TARGET|MOLECULE|Concentration" id="7" />
+          <Map s="C_int" id="8" />
+          <Map s="Concentration (molar)" id="9" />
+          <Map s="SOURCE|MOLECULE|Concentration" id="10" />
+          <Map s="C_pl" id="11" />
+          <Map s="MOLECULE|Fraction unbound (plasma)" id="12" />
+          <Map s="fu" id="13" />
+          <Map s="Fraction" id="14" />
+          <Map s="NEIGHBORHOOD|MOLECULE|P (large endothelial pores)" id="15" />
+          <Map s="P_endothelial_l" id="16" />
+          <Map s="Velocity" id="17" />
+          <Map s="NEIGHBORHOOD|MOLECULE|P (small endothelial pores)" id="18" />
+          <Map s="P_endothelial_s" id="19" />
+          <Map s="NEIGHBORHOOD|MOLECULE|Partition coefficient (interstitial/plasma)" id="20" />
+          <Map s="K_int_pls" id="21" />
+          <Map s="NEIGHBORHOOD|MOLECULE|Peclet number (large pores)" id="22" />
+          <Map s="Pe_l" id="23" />
+          <Map s="NEIGHBORHOOD|MOLECULE|Peclet number (small pores)" id="24" />
+          <Map s="Pe_s" id="25" />
+          <Map s="NEIGHBORHOOD|MOLECULE|Reflection coefficient (large pores)" id="26" />
+          <Map s="sigma_l" id="27" />
+          <Map s="NEIGHBORHOOD|MOLECULE|Reflection coefficient (small pores)" id="28" />
+          <Map s="sigma_s" id="29" />
+          <Map s="NEIGHBORHOOD|Surface area (plasma/interstitial)" id="30" />
+          <Map s="SA_pls_int" id="31" />
+          <Map s="Area" id="32" />
+          <Map s="Organism|F2" id="33" />
+          <Map s="F2" id="34" />
+        </StringMap>
+      </FormulaCache>
+    </PassiveTransportBuildingBlock>
+    <ParameterValuesBuildingBlock id="vm0WIRi_HEaZAmNyiMT7Mg" name="Parameter Values" icon="ParameterValues" bbVersion="124">
+      <Creation createdAt="5250925476552120649" createdBy="8aab7eaf" creationMode="New" origin="MoBi" version="12.0" internalVersion="17" />
+      <Builders>
+        <ParameterValue id="pP6ZO4G2kk2RQb9Hnsxf9w" name="Fraction endosomal (global)" formula="cK17Hffi8UqnkNjFhnt3XA" value="NaN" isDefault="0">
+          <ContainerPath path="0" />
+          <ValueOrigin source="Publication" description="divide by (2*F2) to avoid double counting because endothelial surface area is also multiplied by F2" />
+        </ParameterValue>
+        <ParameterValue id="YLY_EzmonEWxlSnBPNzgDg" name="SA proportionality factor" dimension="Inversed length" formula="txEOIwkJgEu-eUqdS-Z2wQ" value="NaN" isDefault="0" displayUnit="1/cm">
+          <ContainerPath path="0" />
+        </ParameterValue>
+        <ParameterValue id="FygWzt2cV0OQ9xrjWcjzcw" name="Lymph flow rate" dimension="Flow" formula="l5AX0JYgZ02VmfBkMuifhg" value="NaN" isDefault="0" displayUnit="l/min">
+          <ContainerPath path="1" />
+        </ParameterValue>
+        <ParameterValue id="HF7IP8JdMkqU-tGd9chsXA" name="Lymph flow rate" dimension="Flow" formula="l5AX0JYgZ02VmfBkMuifhg" value="NaN" isDefault="0" displayUnit="l/min">
+          <ContainerPath path="2" />
+        </ParameterValue>
+        <ParameterValue id="IM-ZvKKmY0qqHhZAF_oijQ" name="Lymph flow rate" dimension="Flow" formula="l5AX0JYgZ02VmfBkMuifhg" value="NaN" isDefault="0" displayUnit="l/min">
+          <ContainerPath path="3" />
+        </ParameterValue>
+        <ParameterValue id="Bpvatzy6WkqmW6UJK_ATfw" name="Lymph flow rate" dimension="Flow" formula="l5AX0JYgZ02VmfBkMuifhg" value="NaN" isDefault="0" displayUnit="l/min">
+          <ContainerPath path="4" />
+        </ParameterValue>
+        <ParameterValue id="0aXmz2jgXE-CBBTPuRsX7A" name="Lymph flow rate" dimension="Flow" formula="l5AX0JYgZ02VmfBkMuifhg" value="NaN" isDefault="0" displayUnit="l/min">
+          <ContainerPath path="5" />
+        </ParameterValue>
+        <ParameterValue id="hTogexRpMkqiObwb14CyJQ" name="Lymph flow rate" dimension="Flow" formula="l5AX0JYgZ02VmfBkMuifhg" value="NaN" isDefault="0" displayUnit="l/min">
+          <ContainerPath path="6" />
+        </ParameterValue>
+        <ParameterValue id="kQQAxP-MaEuIGuaY61HnLA" name="Lymph flow rate (incl. mucosa)" dimension="Flow" formula="l5AX0JYgZ02VmfBkMuifhg" value="NaN" isDefault="0" displayUnit="l/min">
+          <ContainerPath path="7" />
+        </ParameterValue>
+        <ParameterValue id="ANzRZHmEbUyhRmdE7GOUTA" name="Lymph flow rate (incl. mucosa)" dimension="Flow" formula="l5AX0JYgZ02VmfBkMuifhg" value="NaN" isDefault="0" displayUnit="l/min">
+          <ContainerPath path="8" />
+        </ParameterValue>
+        <ParameterValue id="aeP5zApjgUqzVTkpBLOOkg" name="Lymph flow rate" dimension="Flow" formula="l5AX0JYgZ02VmfBkMuifhg" value="NaN" isDefault="0" displayUnit="l/min">
+          <ContainerPath path="9" />
+        </ParameterValue>
+        <ParameterValue id="cET6a4XLCkCIBye3T1DGhQ" name="Lymph flow rate" dimension="Flow" formula="l5AX0JYgZ02VmfBkMuifhg" value="NaN" isDefault="0" displayUnit="l/min">
+          <ContainerPath path="10" />
+        </ParameterValue>
+        <ParameterValue id="K7ftcTTP_UygmuOYfxU_cQ" name="Lymph flow rate" dimension="Flow" formula="l5AX0JYgZ02VmfBkMuifhg" value="NaN" isDefault="0" displayUnit="l/min">
+          <ContainerPath path="11" />
+        </ParameterValue>
+        <ParameterValue id="rcs3wxcTu0O21jO3LS2XKg" name="Lymph flow rate" dimension="Flow" formula="l5AX0JYgZ02VmfBkMuifhg" value="NaN" isDefault="0" displayUnit="l/min">
+          <ContainerPath path="12" />
+        </ParameterValue>
+        <ParameterValue id="Ovt81guxfkqyNwXVqi-SPA" name="Lymph flow rate" dimension="Flow" formula="l5AX0JYgZ02VmfBkMuifhg" value="NaN" isDefault="0" displayUnit="l/min">
+          <ContainerPath path="13" />
+        </ParameterValue>
+        <ParameterValue id="RWwKa33_h0S969z_kpN3HQ" name="Lymph flow rate" dimension="Flow" formula="l5AX0JYgZ02VmfBkMuifhg" value="NaN" isDefault="0" displayUnit="l/min">
+          <ContainerPath path="14" />
+        </ParameterValue>
+        <ParameterValue id="D3OsCfx3VEu15mc4xdE4-g" name="Lymph flow rate" dimension="Flow" formula="l5AX0JYgZ02VmfBkMuifhg" value="NaN" isDefault="0" displayUnit="l/min">
+          <ContainerPath path="15" />
+        </ParameterValue>
+      </Builders>
+      <FormulaCache>
+        <Formulas>
+          <Formula id="cK17Hffi8UqnkNjFhnt3XA" name="fractionEndosomal" dim="Fraction" formula="0.2*(F1+F2)/(2*F2)">
+            <Paths>
+              <Path path="16" as="17" />
+              <Path path="18" as="19" />
+            </Paths>
+          </Formula>
+          <Formula id="txEOIwkJgEu-eUqdS-Z2wQ" name="SA_prop_factor" dim="Inversed length" formula="F2*SA_prop_factor_withoutOntogeny">
+            <Paths>
+              <Path path="18" as="19" />
+              <Path path="20" as="21" dim="22" />
+            </Paths>
+          </Formula>
+          <Formula id="l5AX0JYgZ02VmfBkMuifhg" name="lymphFlow_withOntogeny" dim="Flow" formula="f_lymph*Q*(1-HCT)*F3">
+            <Paths>
+              <Path path="23" as="24" />
+              <Path path="25" as="26" dim="27" />
+              <Path path="28" as="29" />
+              <Path path="30" as="31" />
+            </Paths>
+          </Formula>
+        </Formulas>
+        <StringMap>
+          <Map s="Organism" id="0" />
+          <Map s="Organism|Brain" id="1" />
+          <Map s="Organism|Bone" id="2" />
+          <Map s="Organism|Fat" id="3" />
+          <Map s="Organism|Gonads" id="4" />
+          <Map s="Organism|Heart" id="5" />
+          <Map s="Organism|Kidney" id="6" />
+          <Map s="Organism|LargeIntestine" id="7" />
+          <Map s="Organism|SmallIntestine" id="8" />
+          <Map s="Organism|Lung" id="9" />
+          <Map s="Organism|Muscle" id="10" />
+          <Map s="Organism|Pancreas" id="11" />
+          <Map s="Organism|Skin" id="12" />
+          <Map s="Organism|Spleen" id="13" />
+          <Map s="Organism|Stomach" id="14" />
+          <Map s="Organism|Liver" id="15" />
+          <Map s="Organism|F1" id="16" />
+          <Map s="F1" id="17" />
+          <Map s="Organism|F2" id="18" />
+          <Map s="F2" id="19" />
+          <Map s="Organism|SA_prop_factor_withoutOntogeny" id="20" />
+          <Map s="SA_prop_factor_withoutOntogeny" id="21" />
+          <Map s="Inversed length" id="22" />
+          <Map s="..|Lymph flow proportionality factor" id="23" />
+          <Map s="f_lymph" id="24" />
+          <Map s="..|Blood flow rate" id="25" />
+          <Map s="Q" id="26" />
+          <Map s="Flow" id="27" />
+          <Map s="Organism|Hematocrit" id="28" />
+          <Map s="HCT" id="29" />
+          <Map s="Organism|F3" id="30" />
+          <Map s="F3" id="31" />
+        </StringMap>
+      </FormulaCache>
+    </ParameterValuesBuildingBlock>
+  </BuildingBlocks>
+</Module>

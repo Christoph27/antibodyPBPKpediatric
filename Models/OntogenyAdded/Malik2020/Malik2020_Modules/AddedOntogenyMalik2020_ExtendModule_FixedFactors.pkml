@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Module id="JJ7mxOCta0edRmLDjXfL6w" name="AddedOntogenyMalik2020_ExtendModule_FixedFactors" icon="Module" moduleImportVersion="1258729912" mergeBehavior="Extend" isPKSimModule="0" version="17">
+  <BuildingBlocks>
+    <SpatialStructure id="UP6KgIIgNEWUpnI4qh-eZQ" name="Organism" icon="SpatialStructure" bbVersion="29">
+      <Creation createdAt="5250925472048915373" createdBy="8aab7eaf" creationMode="New" origin="MoBi" version="12.0" internalVersion="17" />
+      <GlobalMoleculeDependentProperties id="stYC-CNgwk2eUGRnVTx_xg" name="MoleculeProperties" mode="Logical" containerType="Molecule" />
+      <TopContainers>
+        <Container id="kgZt2-heBEi3z5dzBrO-8Q" name="Events" mode="Logical" containerType="Other" />
+        <Container id="FKvd5qJjxE-GV_nO-jcd-Q" name="Organism" icon="ORGANISM" mode="Logical" containerType="Organism">
+          <Children>
+            <Parameter id="x0fQaM4uwUSs8BbeM2_p4g" name="F1" description="factor due to increased leukocyte concentration relative to adult" icon="Parameter" persistable="0" isFixedValue="0" quantityType="Parameter" negativeValuesAllowed="1" isDefault="0" value="1">
+              <ValueOrigin source="Publication" description="Malik2020; DOI: 10.1002/jcph.1540" />
+              <Info flag="10" seq="1" ref="0" bb="2" group="143" />
+            </Parameter>
+            <Parameter id="rbGTw3Lv7kaZM68-TRiFzg" name="F2" description="factor due to increased capillarity density relative to adult " icon="Parameter" persistable="0" isFixedValue="0" quantityType="Parameter" negativeValuesAllowed="1" isDefault="0" value="1">
+              <ValueOrigin source="Publication" description="Malik2020; DOI: 10.1002/jcph.1540" />
+              <Info flag="10" seq="1" ref="0" bb="2" group="143" />
+            </Parameter>
+            <Parameter id="ASjIaq1k90WdYyIrOSQ9_w" name="F3" description="factor due to increased lymph flow rate  relative to adult" icon="Parameter" persistable="0" isFixedValue="0" quantityType="Parameter" negativeValuesAllowed="1" isDefault="0" value="1">
+              <ValueOrigin source="Publication" description="Malik2020; DOI: 10.1002/jcph.1540" />
+              <Info flag="10" seq="1" ref="0" bb="2" group="143" />
+            </Parameter>
+            <Parameter id="gAcaGK86yEq--85rJKumsQ" name="SA_prop_factor_withoutOntogeny" description="original parameter value for roportionality factor for the surface area plasma/ int (added here for dimension)" icon="Parameter" persistable="0" isFixedValue="0" dim="Inversed length" quantityType="Parameter" negativeValuesAllowed="1" isDefault="0" value="9500" displayUnit="1/cm">
+              <Info flag="10" seq="1" ref="0" bb="2" group="143" />
+            </Parameter>
+          </Children>
+        </Container>
+      </TopContainers>
+      <NeighborhoodsContainer id="VuV7QMLDs0KXXUocbcdjmg" name="Neighborhoods" mode="Logical" containerType="Other" />
+    </SpatialStructure>
+    <ParameterValuesBuildingBlock id="WQgTRAP_VUymeE0zlbTPOw" name="Adult" icon="ParameterValues" bbVersion="10">
+      <Creation createdAt="5250925660508913383" createdBy="8aab7eaf" creationMode="New" origin="MoBi" version="12.0" internalVersion="17" />
+      <Builders>
+        <ParameterValue id="gf_Rzarf10S1xrz7anlFoQ" name="F1" value="1" isDefault="0">
+          <ContainerPath path="0" />
+        </ParameterValue>
+        <ParameterValue id="gUYTShoC90yH3yRhq0wj6Q" name="F2" value="1" isDefault="0">
+          <ContainerPath path="0" />
+        </ParameterValue>
+        <ParameterValue id="4Zw_W2V-sEKrSfjEOgXBMw" name="F3" value="1" isDefault="0">
+          <ContainerPath path="0" />
+        </ParameterValue>
+      </Builders>
+      <FormulaCache>
+        <StringMap>
+          <Map s="Organism" id="0" />
+        </StringMap>
+      </FormulaCache>
+    </ParameterValuesBuildingBlock>
+    <ParameterValuesBuildingBlock id="98AabwaiqUmdRqTOSIUlBQ" name="Preterm" icon="ParameterValues" bbVersion="13">
+      <Creation createdAt="5250925672004454165" createdBy="8aab7eaf" creationMode="New" origin="MoBi" version="12.0" internalVersion="17" />
+      <Builders>
+        <ParameterValue id="U8MQXasNi0OUvRrd35S0HA" name="F1" value="2.2" isDefault="0">
+          <ContainerPath path="0" />
+        </ParameterValue>
+        <ParameterValue id="mZ95mn3aiUSUGB_ebUSskg" name="F2" value="1.6" isDefault="0">
+          <ContainerPath path="0" />
+        </ParameterValue>
+        <ParameterValue id="S2YRIg0Q0kO9esfIE9Tbzw" name="F3" value="2" isDefault="0">
+          <ContainerPath path="0" />
+        </ParameterValue>
+      </Builders>
+      <FormulaCache>
+        <StringMap>
+          <Map s="Organism" id="0" />
+        </StringMap>
+      </FormulaCache>
+    </ParameterValuesBuildingBlock>
+    <ParameterValuesBuildingBlock id="4S8CXqREXkihL1xtjSZEVQ" name="Term" icon="ParameterValues" bbVersion="13">
+      <Creation createdAt="5250925672086503519" createdBy="8aab7eaf" creationMode="New" origin="MoBi" version="12.0" internalVersion="17" />
+      <Builders>
+        <ParameterValue id="lLQL1H7PmUCcqGvuWBRd-w" name="F1" value="3" isDefault="0">
+          <ContainerPath path="0" />
+        </ParameterValue>
+        <ParameterValue id="sWYBmj91Sk-ve4injS4O5A" name="F2" value="1.3" isDefault="0">
+          <ContainerPath path="0" />
+        </ParameterValue>
+        <ParameterValue id="YePzP-PB_0qPSPoEx7vS_A" name="F3" value="2" isDefault="0">
+          <ContainerPath path="0" />
+        </ParameterValue>
+      </Builders>
+      <FormulaCache>
+        <StringMap>
+          <Map s="Organism" id="0" />
+        </StringMap>
+      </FormulaCache>
+    </ParameterValuesBuildingBlock>
+    <ParameterValuesBuildingBlock id="Wxt2wD6qtUWc13lmzDBxFg" name="1 to 3 months" icon="ParameterValues" bbVersion="13">
+      <Creation createdAt="5250925672209617485" createdBy="8aab7eaf" creationMode="New" origin="MoBi" version="12.0" internalVersion="17" />
+      <Builders>
+        <ParameterValue id="7kQkX3HAYkiWJwldbJ_Sww" name="F1" value="1.8" isDefault="0">
+          <ContainerPath path="0" />
+        </ParameterValue>
+        <ParameterValue id="vMCWbmyktUKUpzqgMKdgqQ" name="F2" value="1.1" isDefault="0">
+          <ContainerPath path="0" />
+        </ParameterValue>
+        <ParameterValue id="Hc1q_h3k0UK7IdTBLJd7LQ" name="F3" value="2" isDefault="0">
+          <ContainerPath path="0" />
+        </ParameterValue>
+      </Builders>
+      <FormulaCache>
+        <StringMap>
+          <Map s="Organism" id="0" />
+        </StringMap>
+      </FormulaCache>
+    </ParameterValuesBuildingBlock>
+    <ParameterValuesBuildingBlock id="DsOnL31GGkKfUN6AHelyiA" name="3 to 6 months" icon="ParameterValues" bbVersion="12">
+      <Creation createdAt="5250925672348367086" createdBy="8aab7eaf" creationMode="New" origin="MoBi" version="12.0" internalVersion="17" />
+      <Builders>
+        <ParameterValue id="OpP0JFSLtU6wUAz_Njhhlw" name="F1" value="1.5" isDefault="0">
+          <ContainerPath path="0" />
+        </ParameterValue>
+        <ParameterValue id="uFiV18JNLEyzFA5fTtkplg" name="F2" value="1" isDefault="0">
+          <ContainerPath path="0" />
+        </ParameterValue>
+        <ParameterValue id="_kzkMozXm0mZZw1H8G0SFw" name="F3" value="2" isDefault="0">
+          <ContainerPath path="0" />
+        </ParameterValue>
+      </Builders>
+      <FormulaCache>
+        <StringMap>
+          <Map s="Organism" id="0" />
+        </StringMap>
+      </FormulaCache>
+    </ParameterValuesBuildingBlock>
+    <ParameterValuesBuildingBlock id="bq0-4-BK6UahMaxyiozrJA" name="6 to 12 months" icon="ParameterValues" bbVersion="13">
+      <Creation createdAt="5250925672455099681" createdBy="8aab7eaf" creationMode="New" origin="MoBi" version="12.0" internalVersion="17" />
+      <Builders>
+        <ParameterValue id="ulXjOculQk-tpanYPlws3Q" name="F1" value="1.5" isDefault="0">
+          <ContainerPath path="0" />
+        </ParameterValue>
+        <ParameterValue id="wawoRFCwrECTZc12XL8s3Q" name="F2" value="0.9" isDefault="0">
+          <ContainerPath path="0" />
+        </ParameterValue>
+        <ParameterValue id="03wfXK7re0umV5C4Bsa6kA" name="F3" value="2" isDefault="0">
+          <ContainerPath path="0" />
+        </ParameterValue>
+      </Builders>
+      <FormulaCache>
+        <StringMap>
+          <Map s="Organism" id="0" />
+        </StringMap>
+      </FormulaCache>
+    </ParameterValuesBuildingBlock>
+  </BuildingBlocks>
+</Module>
