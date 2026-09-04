@@ -27,8 +27,9 @@
 getUrtoxazumabPK <- function() {
   library(readxl)
   library(data.table)
+  library(here)
 
-  expDataFile <- file.path("..", "..", "rawData", "urtoxazumab", "Lopez2010_Urtoxazumab.xlsx", fsep = .Platform$file.sep)
+  expDataFile <- here("Data", "rawData", "urtoxazumab", "Lopez2010_Urtoxazumab.xlsx")
 
   expDataAdult <- readxl::read_excel(expDataFile, sheet = "adultPK", col_names = TRUE)
   expDataPediatric <- readxl::read_excel(expDataFile, sheet = "pediatricPK", col_names = TRUE)

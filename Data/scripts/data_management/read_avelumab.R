@@ -29,9 +29,10 @@
 getAvelumabPK <- function() {
   library(readxl)
   library(data.table)
+  library(here)
 
   # adult data (Heery2017)
-  adult_file <- file.path("..", "..", "rawData", "avelumab", "Heery2017_avelumab.xlsx", fsep = .Platform$file.sep)
+  adult_file <- here("Data", "rawData", "avelumab", "Heery2017_avelumab.xlsx")
   
   read_Heery2017_sheet <- function(sheet_name, profile_start) {
     adult <- as.data.table(readxl::read_excel(adult_file, sheet = sheet_name, col_names = TRUE))
@@ -76,7 +77,7 @@ getAvelumabPK <- function() {
   #  Vugmeyster2022 supplementary Fig2a (10 mg/kg) 
   
   # file name 
-  expDataFile_Vugmeyster2022_Fig2a = file.path("..", "..", "rawData", "avelumab", "Vugmeyster2022_avelumab_SUPPL_Fig2a.xlsx", fsep = .Platform$file.sep)
+  expDataFile_Vugmeyster2022_Fig2a = here("Data", "rawData", "avelumab", "Vugmeyster2022_avelumab_SUPPL_Fig2a.xlsx")
   
   #read
   data_Vugmeyster2022_Fig2a = readxl::read_excel(expDataFile_Vugmeyster2022_Fig2a, sheet = "DataLong", col_names=TRUE)
@@ -105,7 +106,7 @@ getAvelumabPK <- function() {
   
   
   # Vugmeyster2022 supplementary Fig 5 (10 & 20 mg/kg)
-  fig5_file <- file.path("..", "..", "rawData", "avelumab", "Vugmeyster2022_avelumab_SUPPL_Fig5.xlsx", fsep = .Platform$file.sep)
+  fig5_file <- here("Data", "rawData", "avelumab", "Vugmeyster2022_avelumab_SUPPL_Fig5.xlsx")
   
   sheets <- readxl::excel_sheets(fig5_file)
   df_list <- lapply(seq_along(sheets), function(sheet_id) {

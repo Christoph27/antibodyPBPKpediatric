@@ -31,6 +31,7 @@ getPagibaximabPK <- function() {
   
   library(readxl)
   library(data.table)
+  library(here)
   
   
   
@@ -85,7 +86,7 @@ getPagibaximabPK <- function() {
   }
   
   #====Weissman2009 - adults
-  expDataFileAdult <- file.path("..", "..", "rawData", "pagibaximab", "Weisman2009_pagibaximab_adults.xlsx", fsep = .Platform$file.sep)
+  expDataFileAdult <- here("Data", "rawData", "pagibaximab", "Weisman2009_pagibaximab_adults.xlsx")
   expDataAdult_raw <- read_rawData(expDataFileAdult, sheet = "Fig1", range = cell_cols("A:G"))
   
   
@@ -107,7 +108,7 @@ getPagibaximabPK <- function() {
   
   
   #====Weissman2009 - pediatric
-  expDataFilePed2009 <- file.path("..", "..", "rawData", "pagibaximab", "Weisman2009_pagibaximab.xlsx", fsep = .Platform$file.sep)
+  expDataFilePed2009 <- here("Data", "rawData", "pagibaximab", "Weisman2009_pagibaximab.xlsx")
   expDataPed2009_raw <- read_rawData(expDataFilePed2009, sheet = "Fig1", range = cell_cols("A:K"))
   
   
@@ -131,7 +132,7 @@ getPagibaximabPK <- function() {
     
     
     #====Weissman2011 - pediatric
-    expDataFilePed2011 <- file.path("..", "..", "rawData", "pagibaximab", "Weisman2011_pagibaximab.xlsx", fsep = .Platform$file.sep)
+    expDataFilePed2011 <- here("Data", "rawData", "pagibaximab", "Weisman2011_pagibaximab.xlsx")
     expDataPed2011_raw <- read_rawData(expDataFilePed2011, sheet = "Fig1", range = cell_cols("A:E"))
     
     

@@ -28,11 +28,12 @@
 getAtezolizumabPK <- function() {
   library(readxl)
   library(data.table)
+  library(here)
   
   
   # === Geoerger2020
   
-  file_Geoerger2020 <- file.path("..", "..", "rawData", "atezolizumab", "Geoerger2020_Atezolizumab.xlsx", fsep = .Platform$file.sep)
+  file_Geoerger2020 <- here("Data", "rawData", "atezolizumab", "Geoerger2020_Atezolizumab.xlsx")
   
   dt_Geoerger2020 <- as.data.table(readxl::read_excel(file_Geoerger2020, sheet = "PlasmaConc_scan", col_names = TRUE))
   setnames(dt_Geoerger2020, names(dt_Geoerger2020), make.names(names(dt_Geoerger2020), unique = TRUE))
@@ -125,7 +126,7 @@ getAtezolizumabPK <- function() {
   
   #==== Herbst2014 (adults)
   
-  file_Herbst2014 <- file.path("..", "..", "rawData", "atezolizumab", "Herbst2014_atezolizumab_adults.xlsx", fsep = .Platform$file.sep)
+  file_Herbst2014 <- here("Data", "rawData", "atezolizumab", "Herbst2014_atezolizumab_adults.xlsx", fsep = .Platform$file.sep)
   
   dt_Herbts2014 <- as.data.table(readxl::read_excel(file_Herbst2014, sheet = "FigS1_scan", col_names = TRUE))
   setnames(dt_Herbts2014, names(dt_Herbts2014), make.names(names(dt_Herbts2014), unique = TRUE))

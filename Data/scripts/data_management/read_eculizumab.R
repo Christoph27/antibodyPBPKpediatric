@@ -31,12 +31,13 @@
 
 library(readxl)
 library(data.table)
+library(here)
 
 getEculizumabPK <- function() {
   
   
   # Jodele2014 pediatric patient sheets
-  expDataFile_Jodele2014 <- file.path("..", "..", "rawData", "eculicumab", "Jodele2014_Eculizumab.xlsx", fsep = .Platform$file.sep)
+  expDataFile_Jodele2014 <- here("Data", "rawData", "eculicumab", "Jodele2014_Eculizumab.xlsx")
   sheets <- c("Pat_1","Pat_2","Pat_3","Pat_4","Pat_5","Pat_6")
   
   pat_list <- lapply(seq_along(sheets), function(i) {
@@ -89,7 +90,7 @@ getEculizumabPK <- function() {
     
 
   # healthy adult Cho2020
-  expDataFile_Cho2020 <- file.path("..", "..", "rawData", "eculicumab", "Chow2020_Eculizumab.xlsx", fsep = .Platform$file.sep)
+  expDataFile_Cho2020 <- here("Data", "rawData", "eculicumab", "Chow2020_Eculizumab.xlsx")
 
   adultCho2020 <- as.data.table(readxl::read_excel(expDataFile_Cho2020, sheet = "Fig1a", range = cell_cols("A:E"), col_names = TRUE))
   colnames(adultCho2020) <- make.names(colnames(adultCho2020), unique = TRUE) 

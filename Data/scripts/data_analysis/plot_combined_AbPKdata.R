@@ -19,6 +19,7 @@ source(file.path("..", "data_management", "read_avelumab.R", fsep = .Platform$fi
 source(file.path("..", "data_management", "read_pagibaximab.R", fsep = .Platform$file.sep) )
 source(file.path("..", "data_management", "read_palivizumab.R", fsep = .Platform$file.sep) )
 source(file.path("..", "data_management", "read_urtoxazumab.R", fsep = .Platform$file.sep) )
+source(file.path("..", "data_management", "read_ustekinumab.R", fsep = .Platform$file.sep) )
 
 
 
@@ -55,6 +56,7 @@ urtoxazumabPK_min <-urtoxazumabPK_highAdultDose[, c("ID", "time_days", "concDose
 
 
 
+
 # === read avelumab
 
 avelumabPK = getAvelumabPK()
@@ -76,6 +78,13 @@ palivizumabPK  <-  getPalivizumabPK()
 palivizumabPK_min <- palivizumabPK[palivizumabPK$dosingCycle==1, c("ID", "time_days", "concDoseNorm1mgkg", "sdDoseNorm1mgkg", "Ab", "group") ]
 
 
+# read ustekinumab
+
+ustekinumabPK  <-  getUstekinumabPK()
+ustekinumabPK[, sdDoseNorm1mgkg := NaN]
+ustekinumabPK_plot <- ustekinumabPK[, c("ID", "time_days", "concDoseNorm1mgkg", "sdDoseNorm1mgkg", "Ab", "group") ]
+
+
 # read pagibaximab 
 # to do (cf. plot_pagibaximab.R)
 
@@ -84,7 +93,7 @@ palivizumabPK_min <- palivizumabPK[palivizumabPK$dosingCycle==1, c("ID", "time_d
 # =============== COMBINE ALL DATA
 
 #add to all data
-allDataCycle1 <-rbind(atezolizumabPlot, urtoxazumabPK_min, avelumabPK_all_min, palivizumabPK_min)
+allDataCycle1 <-rbind(atezolizumabPlot, urtoxazumabPK_min, avelumabPK_all_min, palivizumabPK_min, ustekinumabPK_plot)
 
 # add an unique profile ID for the combined data
 allDataCycle1[, IDu := rleid(ID, group)]
@@ -163,6 +172,7 @@ ab_shapes <- c(
   "atezolizumab" = 16, # 16: circle (solid, small)
   "avelumab" = 17, # 17: triangle (up, solid)
   "palivizumab" = 15, # 15: square (solid)
+  "ustekinumab" = 12, # 
   "urtoxazumab" = 18) # 18 diamond
 
 
