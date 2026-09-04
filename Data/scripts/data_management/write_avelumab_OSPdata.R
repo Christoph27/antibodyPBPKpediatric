@@ -17,7 +17,7 @@ library(data.table)
 
 
 
-source(file.path("..", "data_management", "read_avelumab.R", fsep = .Platform$file.sep) )
+source(file.path(".", "read_avelumab.R", fsep = .Platform$file.sep) )
   
  
 avelumabData <-  getAvelumabPK() 
