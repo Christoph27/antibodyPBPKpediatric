@@ -1,0 +1,65 @@
+"ID","time_days","Dose_mgkg","group","Ab","dosingCycle","litID","concentration_used_ugml"
+1,0.0416666666666667,3,"adult; 3 mg/kg","pagibaximab",1,"Weisman2009_adult",68.5577
+1,3,3,"adult; 3 mg/kg","pagibaximab",1,"Weisman2009_adult",40.99226
+1,7,3,"adult; 3 mg/kg","pagibaximab",1,"Weisman2009_adult",28.84132
+1,14,3,"adult; 3 mg/kg","pagibaximab",1,"Weisman2009_adult",24.81633
+1,28,3,"adult; 3 mg/kg","pagibaximab",1,"Weisman2009_adult",14.89104
+2,0.0416666666666667,10,"adult; 10 mg/kg","pagibaximab",1,"Weisman2009_adult",209.05203
+2,3,10,"adult; 10 mg/kg","pagibaximab",1,"Weisman2009_adult",103.59583
+2,7,10,"adult; 10 mg/kg","pagibaximab",1,"Weisman2009_adult",100.72733
+2,14,10,"adult; 10 mg/kg","pagibaximab",1,"Weisman2009_adult",88.03953
+2,28,10,"adult; 10 mg/kg","pagibaximab",1,"Weisman2009_adult",50.90731
+3,0.0416666666666667,90,"0.01 yrs (3-7 days), premature newborn; 90 mg/kg","pagibaximab",1,"Weisman2009",996.71864
+3,2.050848,90,"0.01 yrs (3-7 days), premature newborn; 90 mg/kg","pagibaximab",1,"Weisman2009",335.02674
+3,7,90,"0.01 yrs (3-7 days), premature newborn; 90 mg/kg","pagibaximab",1,"Weisman2009",264.00604
+3,14,90,"0.01 yrs (3-7 days), premature newborn; 90 mg/kg","pagibaximab",1,"Weisman2009",204.63504
+3,14.0416666666667,90,"0.01 yrs (3-7 days), premature newborn; 90 mg/kg","pagibaximab",2,"Weisman2009",1188.18864
+3,28,90,"0.01 yrs (3-7 days), premature newborn; 90 mg/kg","pagibaximab",2,"Weisman2009",371.69074
+3,42,90,"0.01 yrs (3-7 days), premature newborn; 90 mg/kg","pagibaximab",2,"Weisman2009",210.88204
+3,56,90,"0.01 yrs (3-7 days), premature newborn; 90 mg/kg","pagibaximab",2,"Weisman2009",142.27694
+4,0.0416666666666667,60,"0.01 yrs (3-7 days), premature newborn; 60 mg/kg","pagibaximab",1,"Weisman2009",708.653178
+4,2.050848,60,"0.01 yrs (3-7 days), premature newborn; 60 mg/kg","pagibaximab",1,"Weisman2009",208.269278
+4,7,60,"0.01 yrs (3-7 days), premature newborn; 60 mg/kg","pagibaximab",1,"Weisman2009",192.986178
+4,14,60,"0.01 yrs (3-7 days), premature newborn; 60 mg/kg","pagibaximab",1,"Weisman2009",115.760478
+4,14.0416666666667,60,"0.01 yrs (3-7 days), premature newborn; 60 mg/kg","pagibaximab",2,"Weisman2009",708.653178
+4,28,60,"0.01 yrs (3-7 days), premature newborn; 60 mg/kg","pagibaximab",2,"Weisman2009",198.966278
+4,42,60,"0.01 yrs (3-7 days), premature newborn; 60 mg/kg","pagibaximab",2,"Weisman2009",103.626978
+4,56,60,"0.01 yrs (3-7 days), premature newborn; 60 mg/kg","pagibaximab",2,"Weisman2009",66.862408
+5,0.0416666666666667,30,"0.01 yrs (3-7 days), premature newborn; 30 mg/kg","pagibaximab",1,"Weisman2009",380.670326
+5,2.050848,30,"0.01 yrs (3-7 days), premature newborn; 30 mg/kg","pagibaximab",1,"Weisman2009",119.993726
+5,7,30,"0.01 yrs (3-7 days), premature newborn; 30 mg/kg","pagibaximab",1,"Weisman2009",86.166656
+5,14,30,"0.01 yrs (3-7 days), premature newborn; 30 mg/kg","pagibaximab",1,"Weisman2009",60.665416
+5,14.0416666666667,30,"0.01 yrs (3-7 days), premature newborn; 30 mg/kg","pagibaximab",2,"Weisman2009",434.420426
+5,28,30,"0.01 yrs (3-7 days), premature newborn; 30 mg/kg","pagibaximab",2,"Weisman2009",108.035426
+5,42,30,"0.01 yrs (3-7 days), premature newborn; 30 mg/kg","pagibaximab",2,"Weisman2009",57.925006
+5,56,30,"0.01 yrs (3-7 days), premature newborn; 30 mg/kg","pagibaximab",2,"Weisman2009",30.824846
+6,0.0416666666666667,10,"0.01 yrs (3-7 days), premature newborn; 10 mg/kg","pagibaximab",1,"Weisman2009",118.00168
+6,2.050848,10,"0.01 yrs (3-7 days), premature newborn; 10 mg/kg","pagibaximab",1,"Weisman2009",29.33582
+6,7,10,"0.01 yrs (3-7 days), premature newborn; 10 mg/kg","pagibaximab",1,"Weisman2009",24.62036
+6,14,10,"0.01 yrs (3-7 days), premature newborn; 10 mg/kg","pagibaximab",1,"Weisman2009",20.92496
+6,14.0416666666667,10,"0.01 yrs (3-7 days), premature newborn; 10 mg/kg","pagibaximab",2,"Weisman2009",111.01958
+6,28,10,"0.01 yrs (3-7 days), premature newborn; 10 mg/kg","pagibaximab",2,"Weisman2009",30.36407
+6,42,10,"0.01 yrs (3-7 days), premature newborn; 10 mg/kg","pagibaximab",2,"Weisman2009",16.05733
+6,56,10,"0.01 yrs (3-7 days), premature newborn; 10 mg/kg","pagibaximab",2,"Weisman2009",9.92976
+7,0.07333466,90,"0.01 yrs (2-5 days), premature newborn; 90 mg/kg","pagibaximab",1,"Weisman2011",1136.456
+7,3.011207,90,"0.01 yrs (2-5 days), premature newborn; 90 mg/kg","pagibaximab",1,"Weisman2011",419.5519
+7,7,90,"0.01 yrs (2-5 days), premature newborn; 90 mg/kg","pagibaximab",1,"Weisman2011",276.9857
+7,7.083836,90,"0.01 yrs (2-5 days), premature newborn; 90 mg/kg","pagibaximab",2,"Weisman2011",1393.075
+7,9.971636,90,"0.01 yrs (2-5 days), premature newborn; 90 mg/kg","pagibaximab",2,"Weisman2011",631.3646
+7,13.96978,90,"0.01 yrs (2-5 days), premature newborn; 90 mg/kg","pagibaximab",2,"Weisman2011",513.2383
+7,14.03738,90,"0.01 yrs (2-5 days), premature newborn; 90 mg/kg","pagibaximab",3,"Weisman2011",1873.727
+7,17.03336,90,"0.01 yrs (2-5 days), premature newborn; 90 mg/kg","pagibaximab",3,"Weisman2011",887.9837
+7,21.13624,90,"0.01 yrs (2-5 days), premature newborn; 90 mg/kg","pagibaximab",3,"Weisman2011",680.2444
+7,27.95219,90,"0.01 yrs (2-5 days), premature newborn; 90 mg/kg","pagibaximab",3,"Weisman2011",533.6049
+7,41.99259,90,"0.01 yrs (2-5 days), premature newborn; 90 mg/kg","pagibaximab",3,"Weisman2011",289.2057
+8,0.07333466,60,"0.01 yrs (2-5 days), premature newborn; 60 mg/kg","pagibaximab",1,"Weisman2011",936.8635
+8,3.011207,60,"0.01 yrs (2-5 days), premature newborn; 60 mg/kg","pagibaximab",1,"Weisman2011",285.1324
+8,7,60,"0.01 yrs (2-5 days), premature newborn; 60 mg/kg","pagibaximab",1,"Weisman2011",219.9593
+8,7.083836,60,"0.01 yrs (2-5 days), premature newborn; 60 mg/kg","pagibaximab",2,"Weisman2011",1018.33
+8,9.971636,60,"0.01 yrs (2-5 days), premature newborn; 60 mg/kg","pagibaximab",2,"Weisman2011",431.7719
+8,13.96978,60,"0.01 yrs (2-5 days), premature newborn; 60 mg/kg","pagibaximab",2,"Weisman2011",391.0387
+8,14.03738,60,"0.01 yrs (2-5 days), premature newborn; 60 mg/kg","pagibaximab",3,"Weisman2011",1340.122
+8,17.03336,60,"0.01 yrs (2-5 days), premature newborn; 60 mg/kg","pagibaximab",3,"Weisman2011",615.0713
+8,21.13624,60,"0.01 yrs (2-5 days), premature newborn; 60 mg/kg","pagibaximab",3,"Weisman2011",517.3116
+8,27.95219,60,"0.01 yrs (2-5 days), premature newborn; 60 mg/kg","pagibaximab",3,"Weisman2011",354.3788
+8,41.99259,60,"0.01 yrs (2-5 days), premature newborn; 60 mg/kg","pagibaximab",3,"Weisman2011",236.2525
