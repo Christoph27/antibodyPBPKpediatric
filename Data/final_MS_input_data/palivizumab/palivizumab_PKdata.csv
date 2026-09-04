@@ -1,0 +1,24 @@
+"time_days","conc_ugml","sd_ugml","concDoseNorm1mgkg","sdDoseNorm1mgkg","Ab","group","dosingCycle","litID","ID"
+0.0208333333333333,361.13,NA,24.0753333333333,NA,"palivizumab","adult",1,"Boeckh2001",1
+1,227.7,NA,15.18,NA,"palivizumab","adult",1,"Boeckh2001",1
+2,175.2,NA,11.68,NA,"palivizumab","adult",1,"Boeckh2001",1
+30,41.9,NA,2.79333333333333,NA,"palivizumab","adult",1,"Boeckh2001",1
+1,309.3484,40.65161,20.6232266666667,2.71010733333333,"palivizumab","0.68 yrs (Subramanian1998, 15 mg/kg)",1,"Subramanian1998",2
+2,165.5807,22.80457,11.0387133333333,1.52030466666667,"palivizumab","0.68 yrs (Subramanian1998, 15 mg/kg)",1,"Subramanian1998",2
+15,92.20963,11.89802,6.14730866666667,0.793201333333333,"palivizumab","0.68 yrs (Subramanian1998, 15 mg/kg)",1,"Subramanian1998",2
+30,59.49009,10.90651,3.966006,0.727100666666667,"palivizumab","0.68 yrs (Subramanian1998, 15 mg/kg)",1,"Subramanian1998",2
+32,201.2748,24.78752,13.41832,1.65250133333333,"palivizumab","0.68 yrs (Subramanian1998, 15 mg/kg)",2,"Subramanian1998",2
+45,116.9972,10.90649,7.79981333333333,0.727099333333333,"palivizumab","0.68 yrs (Subramanian1998, 15 mg/kg)",2,"Subramanian1998",2
+60,71.3881,11.89802,4.75920666666667,0.793201333333333,"palivizumab","0.68 yrs (Subramanian1998, 15 mg/kg)",2,"Subramanian1998",2
+1,154.6742,20.82156,15.46742,2.082156,"palivizumab","0.62 yrs (Subramanian1998, 10 mg/kg)",1,"Subramanian1998",3
+2,74.36261,12.88951,7.436261,1.288951,"palivizumab","0.62 yrs (Subramanian1998, 10 mg/kg)",1,"Subramanian1998",3
+15,49.57507,13.88102,4.957507,1.388102,"palivizumab","0.62 yrs (Subramanian1998, 10 mg/kg)",1,"Subramanian1998",3
+30,35.69405,11.89802,3.569405,1.189802,"palivizumab","0.62 yrs (Subramanian1998, 10 mg/kg)",1,"Subramanian1998",3
+32,97.16714,10.90652,9.716714,1.090652,"palivizumab","0.62 yrs (Subramanian1998, 10 mg/kg)",2,"Subramanian1998",3
+45,67.4221,11.89802,6.74221,1.189802,"palivizumab","0.62 yrs (Subramanian1998, 10 mg/kg)",2,"Subramanian1998",3
+60,44.61757,8.923519,4.461757,0.8923519,"palivizumab","0.62 yrs (Subramanian1998, 10 mg/kg)",2,"Subramanian1998",3
+0.4139541,303.4575,24.82266,20.2305,1.654844,"palivizumab","0.43 yrs (SaezLlorens2004, 15 mg/kg)",1,"SaezLlorens2004",4
+2,145.2128,15.51414,9.68085333333333,1.034276,"palivizumab","0.43 yrs (SaezLlorens2004, 15 mg/kg)",1,"SaezLlorens2004",4
+5,125.9752,11.79076,8.39834666666667,0.786050666666667,"palivizumab","0.43 yrs (SaezLlorens2004, 15 mg/kg)",1,"SaezLlorens2004",4
+14,81.29433,9.929077,5.419622,0.661938466666667,"palivizumab","0.43 yrs (SaezLlorens2004, 15 mg/kg)",1,"SaezLlorens2004",4
+30,38.47518,3.102833,2.565012,0.206855533333333,"palivizumab","0.43 yrs (SaezLlorens2004, 15 mg/kg)",1,"SaezLlorens2004",4

@@ -1,0 +1,129 @@
+"time_days","conc_ugml","sd_ugml","Dose_mgkg","group","Ab","litID","concDoseNorm1mgkg","sdDoseNorm1mgkg","dose_mg","weight_kg"
+0.0104166666666667,93.88641,NA,10,"adults (asthma); 10 mg/kg","mepolizumab","Smith2011",9.388641,NA,NA,NA
+0.0208333333333333,216.0916,NA,10,"adults (asthma); 10 mg/kg","mepolizumab","Smith2011",21.60916,NA,NA,NA
+0.9638553,172.5006,NA,10,"adults (asthma); 10 mg/kg","mepolizumab","Smith2011",17.25006,NA,NA,NA
+2.168675,140.8406,NA,10,"adults (asthma); 10 mg/kg","mepolizumab","Smith2011",14.08406,NA,NA,NA
+3.13253,123.0324,NA,10,"adults (asthma); 10 mg/kg","mepolizumab","Smith2011",12.30324,NA,NA,NA
+3.855422,107.4759,NA,10,"adults (asthma); 10 mg/kg","mepolizumab","Smith2011",10.74759,NA,NA,NA
+6.987952,89.74976,NA,10,"adults (asthma); 10 mg/kg","mepolizumab","Smith2011",8.974976,NA,NA,NA
+8.192771,87.75028,NA,10,"adults (asthma); 10 mg/kg","mepolizumab","Smith2011",8.775028,NA,NA,NA
+13.9759,70.04887,10.22038,10,"adults (asthma); 10 mg/kg","mepolizumab","Smith2011",7.004887,1.022038,NA,NA
+26.98795,43.64371,13.20923,10,"adults (asthma); 10 mg/kg","mepolizumab","Smith2011",4.364371,1.320923,NA,NA
+27.95181,39.88254,7.319859,10,"adults (asthma); 10 mg/kg","mepolizumab","Smith2011",3.988254,0.7319859,NA,NA
+41.20482,24.2951,5.75544,10,"adults (asthma); 10 mg/kg","mepolizumab","Smith2011",2.42951,0.575544,NA,NA
+58.31325,13.83249,3.741961,10,"adults (asthma); 10 mg/kg","mepolizumab","Smith2011",1.383249,0.3741961,NA,NA
+70.36144,9.220935,2.934065,10,"adults (asthma); 10 mg/kg","mepolizumab","Smith2011",0.9220935,0.2934065,NA,NA
+84.09638,5.617082,2.271576,10,"adults (asthma); 10 mg/kg","mepolizumab","Smith2011",0.5617082,0.2271576,NA,NA
+110.3614,2.180479,1.120151,10,"adults (asthma); 10 mg/kg","mepolizumab","Smith2011",0.2180479,0.1120151,NA,NA
+0.0104166666666667,23.75384,NA,2.5,"adults (asthma); 2.5 mg/kg","mepolizumab","Smith2011",9.501536,NA,NA,NA
+0.0208333333333333,66.96251,NA,2.5,"adults (asthma); 2.5 mg/kg","mepolizumab","Smith2011",26.785004,NA,NA,NA
+0.9638553,37.27594,NA,2.5,"adults (asthma); 2.5 mg/kg","mepolizumab","Smith2011",14.910376,NA,NA,NA
+2.168675,33.30465,NA,2.5,"adults (asthma); 2.5 mg/kg","mepolizumab","Smith2011",13.32186,NA,NA,NA
+3.855422,25.99398,NA,2.5,"adults (asthma); 2.5 mg/kg","mepolizumab","Smith2011",10.397592,NA,NA,NA
+7.710843,21.70676,NA,2.5,"adults (asthma); 2.5 mg/kg","mepolizumab","Smith2011",8.682704,NA,NA,NA
+8.433735,20.75035,NA,2.5,"adults (asthma); 2.5 mg/kg","mepolizumab","Smith2011",8.30014,NA,NA,NA
+14.21687,16.56449,2.416819,2.5,"adults (asthma); 2.5 mg/kg","mepolizumab","Smith2011",6.625796,0.9667276,NA,NA
+28.43373,10.55561,2.31705,2.5,"adults (asthma); 2.5 mg/kg","mepolizumab","Smith2011",4.222244,0.92682,NA,NA
+29.63855,10.32045,1.894167,2.5,"adults (asthma); 2.5 mg/kg","mepolizumab","Smith2011",4.12818,0.7576668,NA,NA
+42.40964,6.146809,1.955891,2.5,"adults (asthma); 2.5 mg/kg","mepolizumab","Smith2011",2.4587236,0.7823564,NA,NA
+58.79518,3.499704,1.16675,2.5,"adults (asthma); 2.5 mg/kg","mepolizumab","Smith2011",1.3998816,0.4667,NA,NA
+70.12048,2.084406,0.9240819,2.5,"adults (asthma); 2.5 mg/kg","mepolizumab","Smith2011",0.8337624,0.36963276,NA,NA
+85.3012,1.35854,0.6191314,2.5,"adults (asthma); 2.5 mg/kg","mepolizumab","Smith2011",0.543416,0.24765256,NA,NA
+107.4699,0.7229359,0.5667155,2.5,"adults (asthma); 2.5 mg/kg","mepolizumab","Smith2011",0.28917436,0.2266862,NA,NA
+0.0104166666666667,4.797529,0.6066108,0.5,"adults (asthma); 0.5 mg/kg","mepolizumab","Smith2011",9.595058,1.2132216,NA,NA
+0.0208333333333333,9.865728,NA,0.5,"adults (asthma); 0.5 mg/kg","mepolizumab","Smith2011",19.731456,NA,NA,NA
+0.7228915,7.875566,NA,0.5,"adults (asthma); 0.5 mg/kg","mepolizumab","Smith2011",15.751132,NA,NA,NA
+2.409638,6.576638,NA,0.5,"adults (asthma); 0.5 mg/kg","mepolizumab","Smith2011",13.153276,NA,NA,NA
+3.855422,5.133007,NA,0.5,"adults (asthma); 0.5 mg/kg","mepolizumab","Smith2011",10.266014,NA,NA,NA
+6.987952,4.190918,NA,0.5,"adults (asthma); 0.5 mg/kg","mepolizumab","Smith2011",8.381836,NA,NA,NA
+13.9759,3.198102,NA,0.5,"adults (asthma); 0.5 mg/kg","mepolizumab","Smith2011",6.396204,NA,NA,NA
+27.46988,2.131902,NA,0.5,"adults (asthma); 0.5 mg/kg","mepolizumab","Smith2011",4.263804,NA,NA,NA
+39.27711,1.389495,0.4421315,0.5,"adults (asthma); 0.5 mg/kg","mepolizumab","Smith2011",2.77899,0.884263,NA,NA
+55.90361,0.7562568,0.1103407,0.5,"adults (asthma); 0.5 mg/kg","mepolizumab","Smith2011",1.5125136,0.2206814,NA,NA
+84.57832,0.2806344,0.06160177,0.5,"adults (asthma); 0.5 mg/kg","mepolizumab","Smith2011",0.5612688,0.12320354,NA,NA
+113.253,0.1139597,0.03268031,0.5,"adults (asthma); 0.5 mg/kg","mepolizumab","Smith2011",0.2279194,0.06536062,NA,NA
+0.0104166666666667,0.6459161,NA,0.05,"adults (asthma); 0.05 mg/kg","mepolizumab","Smith2011",12.918322,NA,NA,NA
+0.2409638,0.9473635,NA,0.05,"adults (asthma); 0.05 mg/kg","mepolizumab","Smith2011",18.94727,NA,NA,NA
+0.7228915,0.7562568,NA,0.05,"adults (asthma); 0.05 mg/kg","mepolizumab","Smith2011",15.125136,NA,NA,NA
+4.096385,0.5041317,NA,0.05,"adults (asthma); 0.05 mg/kg","mepolizumab","Smith2011",10.082634,NA,NA,NA
+6.987952,0.4504228,NA,0.05,"adults (asthma); 0.05 mg/kg","mepolizumab","Smith2011",9.008456,NA,NA,NA
+27.95181,0.1493373,NA,0.05,"adults (asthma); 0.05 mg/kg","mepolizumab","Smith2011",2.986746,NA,NA,NA
+43.37349,0.0930441,0.02816078,0.05,"adults (asthma); 0.05 mg/kg","mepolizumab","Smith2011",1.860882,0.5632156,NA,NA
+0.0104166666666667,53.13742,NA,NA,"healthy adults, IV, BW assumed 66 kg","mepolizumab","Smith2011",14.02827888,NA,250,66
+0.1150748,103.212,NA,NA,"healthy adults, IV, BW assumed 66 kg","mepolizumab","Smith2011",27.247968,NA,250,66
+1.035673,81.42451,NA,NA,"healthy adults, IV, BW assumed 66 kg","mepolizumab","Smith2011",21.49607064,NA,250,66
+1.956272,67.35584,NA,NA,"healthy adults, IV, BW assumed 66 kg","mepolizumab","Smith2011",17.78194176,NA,250,66
+3.10702,58.42388,NA,NA,"healthy adults, IV, BW assumed 66 kg","mepolizumab","Smith2011",15.42390432,NA,250,66
+4.027618,54.84417,NA,NA,"healthy adults, IV, BW assumed 66 kg","mepolizumab","Smith2011",14.47886088,NA,250,66
+4.948216,50.67637,NA,NA,"healthy adults, IV, BW assumed 66 kg","mepolizumab","Smith2011",13.37856168,NA,250,66
+6.329114,45.3681,NA,NA,"healthy adults, IV, BW assumed 66 kg","mepolizumab","Smith2011",11.9771784,NA,250,66
+14.03913,32.04209,NA,NA,"healthy adults, IV, BW assumed 66 kg","mepolizumab","Smith2011",8.45911176,NA,250,66
+20.94361,24.10744,NA,NA,"healthy adults, IV, BW assumed 66 kg","mepolizumab","Smith2011",6.36436416,NA,250,66
+27.96318,18.42664,NA,NA,"healthy adults, IV, BW assumed 66 kg","mepolizumab","Smith2011",4.86463296,NA,250,66
+40.96663,10.93709,NA,NA,"healthy adults, IV, BW assumed 66 kg","mepolizumab","Smith2011",2.88739176,NA,250,66
+55.2359,6.700188,NA,NA,"healthy adults, IV, BW assumed 66 kg","mepolizumab","Smith2011",1.768849632,NA,250,66
+84.0046,2.554599,NA,NA,"healthy adults, IV, BW assumed 66 kg","mepolizumab","Smith2011",0.674414136,NA,250,66
+0.1150748,1.952621,NA,NA,"healthy adults, SC thigh, BW assumed 66 kg","mepolizumab","Smith2011",0.515491944,NA,250,66
+0.2301496,3.504471,NA,NA,"healthy adults, SC thigh, BW assumed 66 kg","mepolizumab","Smith2011",0.925180344,NA,250,66
+0.3452244,4.961947,NA,NA,"healthy adults, SC thigh, BW assumed 66 kg","mepolizumab","Smith2011",1.309954008,NA,250,66
+1.035673,19.0185,NA,NA,"healthy adults, SC thigh, BW assumed 66 kg","mepolizumab","Smith2011",5.020884,NA,250,66
+1.956272,29.6071,NA,NA,"healthy adults, SC thigh, BW assumed 66 kg","mepolizumab","Smith2011",7.8162744,NA,250,66
+4.142693,34.67734,NA,NA,"healthy adults, SC thigh, BW assumed 66 kg","mepolizumab","Smith2011",9.15481776,NA,250,66
+5.063291,34.67734,NA,NA,"healthy adults, SC thigh, BW assumed 66 kg","mepolizumab","Smith2011",9.15481776,NA,250,66
+7.019563,34.1335,NA,NA,"healthy adults, SC thigh, BW assumed 66 kg","mepolizumab","Smith2011",9.011244,NA,250,66
+13.92405,29.14277,NA,NA,"healthy adults, SC thigh, BW assumed 66 kg","mepolizumab","Smith2011",7.69369128,NA,250,66
+20.94361,21.92608,NA,NA,"healthy adults, SC thigh, BW assumed 66 kg","mepolizumab","Smith2011",5.78848512,NA,250,66
+27.96318,15.98311,NA,NA,"healthy adults, SC thigh, BW assumed 66 kg","mepolizumab","Smith2011",4.21954104,NA,250,66
+42.0023,10.26695,NA,NA,"healthy adults, SC thigh, BW assumed 66 kg","mepolizumab","Smith2011",2.7104748,NA,250,66
+84.0046,2.398075,NA,NA,"healthy adults, SC thigh, BW assumed 66 kg","mepolizumab","Smith2011",0.6330918,NA,250,66
+24.85393,9.731184,NA,NA,"ped., SC ","mepolizumab","Gupta2019",4.81693608,NA,100,49.5
+26.11236,11.77622,NA,NA,"ped., SC ","mepolizumab","Gupta2019",5.8292289,NA,100,49.5
+27.68539,12.77935,NA,NA,"ped., SC ","mepolizumab","Gupta2019",6.32577825,NA,100,49.5
+28,16.33119,NA,NA,"ped., SC ","mepolizumab","Gupta2019",8.08393905,NA,100,49.5
+28.0001,8.967321,NA,NA,"ped., SC ","mepolizumab","Gupta2019",4.438823895,NA,100,49.5
+29.25843,9.469594,NA,NA,"ped., SC ","mepolizumab","Gupta2019",4.68744903,NA,100,49.5
+31.14607,7.210878,NA,NA,"ped., SC ","mepolizumab","Gupta2019",3.56938461,NA,100,49.5
+53.79775,12.10153,NA,NA,"ped., SC ","mepolizumab","Gupta2019",5.99025735,NA,100,49.5
+55.05618,15.04925,NA,NA,"ped., SC ","mepolizumab","Gupta2019",7.44937875,NA,100,49.5
+55.05628,11.45966,NA,NA,"ped., SC ","mepolizumab","Gupta2019",5.6725317,NA,100,49.5
+55.68539,17.24592,NA,NA,"ped., SC ","mepolizumab","Gupta2019",8.5367304,NA,100,49.5
+56,22.03917,NA,NA,"ped., SC ","mepolizumab","Gupta2019",10.90938915,NA,100,49.5
+56.31461,13.13237,NA,NA,"ped., SC ","mepolizumab","Gupta2019",6.50052315,NA,100,49.5
+56.62922,10.85183,NA,NA,"ped., SC ","mepolizumab","Gupta2019",5.37165585,NA,100,49.5
+58.83146,15.89218,NA,NA,"ped., SC ","mepolizumab","Gupta2019",7.8666291,NA,100,49.5
+60.7191,24.57721,NA,NA,"ped., SC ","mepolizumab","Gupta2019",12.16571895,NA,100,49.5
+62.60674,29.74218,NA,NA,"ped., SC ","mepolizumab","Gupta2019",14.7223791,NA,100,49.5
+62.92135,22.64799,NA,NA,"ped., SC ","mepolizumab","Gupta2019",11.21075505,NA,100,49.5
+62.92145,38.00858,NA,NA,"ped., SC ","mepolizumab","Gupta2019",18.8142471,NA,100,49.5
+62.92155,45.99619,NA,NA,"ped., SC ","mepolizumab","Gupta2019",22.76811405,NA,100,49.5
+63.86517,8.967321,NA,NA,"ped., SC ","mepolizumab","Gupta2019",4.438823895,NA,100,49.5
+64.49438,28.94266,NA,NA,"ped., SC ","mepolizumab","Gupta2019",14.3266167,NA,100,49.5
+65.75281,33.1673,NA,NA,"ped., SC ","mepolizumab","Gupta2019",16.4178135,NA,100,49.5
+80.85394,12.77935,NA,NA,"ped., SC ","mepolizumab","Gupta2019",6.32577825,NA,100,49.5
+83.05618,13.86794,NA,NA,"ped., SC ","mepolizumab","Gupta2019",6.8646303,NA,100,49.5
+84,11.45966,NA,NA,"ped., SC ","mepolizumab","Gupta2019",5.6725317,NA,100,49.5
+84.0001,19.76323,NA,NA,"ped., SC ","mepolizumab","Gupta2019",9.78279885,NA,100,49.5
+84.31461,15.04925,NA,NA,"ped., SC ","mepolizumab","Gupta2019",7.44937875,NA,100,49.5
+85.25843,18.21189,NA,NA,"ped., SC ","mepolizumab","Gupta2019",9.01488555,NA,100,49.5
+86.20225,15.89218,NA,NA,"ped., SC ","mepolizumab","Gupta2019",7.8666291,NA,100,49.5
+88.7191,21.44672,NA,NA,"ped., SC ","mepolizumab","Gupta2019",10.6161264,NA,100,49.5
+100.6742,5.958651,NA,NA,"ped., SC ","mepolizumab","Gupta2019",2.949532245,NA,100,49.5
+111.0562,4.06881,NA,NA,"ped., SC ","mepolizumab","Gupta2019",2.01406095,NA,100,49.5
+111.0563,6.828409,NA,NA,"ped., SC ","mepolizumab","Gupta2019",3.380062455,NA,100,49.5
+111.3708,5.490918,NA,NA,"ped., SC ","mepolizumab","Gupta2019",2.71800441,NA,100,49.5
+111.6854,7.825122,NA,NA,"ped., SC ","mepolizumab","Gupta2019",3.87343539,NA,100,49.5
+112.3146,3.959434,NA,NA,"ped., SC ","mepolizumab","Gupta2019",1.95991983,NA,100,49.5
+113.2584,8.491689,NA,NA,"ped., SC ","mepolizumab","Gupta2019",4.203386055,NA,100,49.5
+114.8315,8.967321,NA,NA,"ped., SC ","mepolizumab","Gupta2019",4.438823895,NA,100,49.5
+117.0337,5.343313,NA,NA,"ped., SC ","mepolizumab","Gupta2019",2.644939935,NA,100,49.5
+117.3483,9.469594,NA,NA,"ped., SC ","mepolizumab","Gupta2019",4.68744903,NA,100,49.5
+139.0562,3.098306,NA,NA,"ped., SC ","mepolizumab","Gupta2019",1.53366147,NA,100,49.5
+139.6854,1.260642,NA,NA,"ped., SC ","mepolizumab","Gupta2019",0.62401779,NA,100,49.5
+140,3.749424,NA,NA,"ped., SC ","mepolizumab","Gupta2019",1.85596488,NA,100,49.5
+140.3146,3.362228,NA,NA,"ped., SC ","mepolizumab","Gupta2019",1.66430286,NA,100,49.5
+140.3147,2.56026,NA,NA,"ped., SC ","mepolizumab","Gupta2019",1.2673287,NA,100,49.5
+142.8315,1.74825,NA,NA,"ped., SC ","mepolizumab","Gupta2019",0.86538375,NA,100,49.5
+143.1461,1.48456,NA,NA,"ped., SC ","mepolizumab","Gupta2019",0.7348572,NA,100,49.5
+145.0337,4.791521,NA,NA,"ped., SC ","mepolizumab","Gupta2019",2.371802895,NA,100,49.5
+145.0338,3.362228,NA,NA,"ped., SC ","mepolizumab","Gupta2019",1.66430286,NA,100,49.5
+145.0339,0.9599498,NA,NA,"ped., SC ","mepolizumab","Gupta2019",0.475175151,NA,100,49.5
